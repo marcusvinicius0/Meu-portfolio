@@ -1,0 +1,25 @@
+.projectContainer{
+    h1{
+        color: var(--soft-purple);
+        margin: 5rem 0 0 6rem;
+        font-size: 2.6rem;
+    }
+
+    .containerCard{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+        gap: 1.8rem;
+        margin-top: 4rem;
+    }
+}
+
+@media (max-width: 525px){
+    .projectContainer{
+        h1{
+            margin: 5rem 0 0 1.5rem;
+        }
+    }
+}
