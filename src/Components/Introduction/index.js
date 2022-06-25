@@ -18,8 +18,6 @@ export default function Introduction() {
                     <img className="manCoding" src={coding} alt="man-coding" />
                 </div>
             </div>
-
-
         </div>
     )
 }
