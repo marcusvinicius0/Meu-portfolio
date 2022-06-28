@@ -6,7 +6,7 @@ export default function Introduction() {
         <div>
             <div className={styles.intro}>
                 <div className={styles.firstContainer}>
-                    <h1 href="inicio">Olá, eu sou o <br /> Marcus!</h1>
+                    <h1>Olá, eu sou o <br /> Marcus!</h1>
                     <p>Desenvolvedor Front-end ▪ React.js</p>
                     <div className={styles.links}>
                         <a href="https://github.com/marcusvinicius0" target="_blank" rel="noreferrer">Acessar GitHub</a>
