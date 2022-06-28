@@ -1,7 +1,8 @@
 .title {
     color: var(--soft-purple);
-    font-size: 2.6rem;
+    font-size: 2.3rem;
     margin: 5rem 0 0 6rem;
+    padding-left: 1rem;
 }
 
 .stackContainer {
@@ -423,3 +424,17 @@
         }
     }
 }
+
+@media(min-width: 1600px){
+    .titleBox{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        .title{
+            margin: 5rem 0 0 0rem;
+        }
+    }
+}
+
+

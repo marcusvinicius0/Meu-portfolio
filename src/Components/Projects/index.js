@@ -16,7 +16,9 @@ export default function Projects() {
 
     return (
         <>
-            <h1 className={styles.title} id="projetos">Principais projetos que desenvolvi:</h1>
+            <div className={styles.titleBox}>
+                <h1 className={styles.title} id="projetos">Principais projetos que desenvolvi:</h1>
+            </div>
 
             <div className={styles.projectContainer}>
                 <div className={styles.containerCard}>

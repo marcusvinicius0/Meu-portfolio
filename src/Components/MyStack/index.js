@@ -12,8 +12,10 @@ import htmlLogo from '../../assets/html.png';
 export default function MyStack() {
     return (
         <>
-            <h1 className={styles.title}>Tenho experiência com:</h1>
+           <div className={styles.titleBox}>
+           <h1 className={styles.title}>Tenho experiência com:</h1>
 
+           </div>
             <div className={styles.stackContainer}>
 
                 <div className={styles.boxesContainer}>
