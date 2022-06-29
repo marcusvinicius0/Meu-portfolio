@@ -1,6 +1,8 @@
 import styles from './styles.module.scss';
 import coding from '../../assets/coding.svg';
 
+import resume from '../../assets/marcusviniciusbegheli.pdf';
+
 export default function Introduction() {
     return (
         <div>
@@ -10,7 +12,7 @@ export default function Introduction() {
                     <p>Desenvolvedor Front-end ▪ React.js</p>
                     <div className={styles.links}>
                         <a href="https://github.com/marcusvinicius0" target="_blank" rel="noreferrer">Acessar GitHub</a>
-                        <a href="/">Download CV</a>
+                        <a href={resume} download>Download CV</a>
                     </div>
                 </div>
 
