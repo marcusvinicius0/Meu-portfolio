@@ -43,7 +43,7 @@ export default function Projects() {
                         img={devSocial}
                         title="DEV SOCIAL NETWORK"
                         description="EM BREVE..."
-                        repo="https://github.com/marcusvinicius0/Developers-social-network"
+                        repo="https://github.com/marcusvinicius0/Devs-Social-Network"
                     />
 
                     <ProjectCard

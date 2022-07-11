@@ -3,7 +3,7 @@ import Header from "./Components/Header";
 import Introduction from "./Components/Introduction";
 import AboutMe from "./Components/AboutMe";
 
-import Projects from "./Components/Projects";
+import MyProjects from "./Components/MyProjects";
 import MyStack from "./Components/MyStack";
 
 import Footer from "./Components/Footer";
@@ -23,7 +23,7 @@ function App() {
         </article>
 
         <article>
-          <Projects />
+          <MyProjects />
         </article>
 
         <article>
