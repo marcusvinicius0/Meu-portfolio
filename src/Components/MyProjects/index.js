@@ -5,7 +5,7 @@ import ProjectCardRepo from '../ProjectCardsRepo';
 
 import sistemaChamados from '../../assets/sistemachamados.png';
 import sistemaRestaurante from '../../assets/sistemarestaurante.png';
-import devSocial from '../../assets/dev-social.png';
+import devSocial from '../../assets/socialmedia.png';
 import filmaria from '../../assets/filmaria.png';
 import portfolio from '../../assets/portfolio.svg';
 import jordanLP from '../../assets/jordanlandingpg.png';
@@ -26,7 +26,7 @@ export default function Projects() {
                     <ProjectCard
                         img={sistemaChamados}
                         title="SISTEMA DE CHAMADOS"
-                        description="Cadastre empresas, crie e edite chamadas para reuniões e tarefas."
+                        description="Cadastre empresas, crie e edite chamados para reuniões e tarefas."
                         repo="https://github.com/marcusvinicius0/sistema-de-chamados"
                         link="https://sistema-de-chamados1.netlify.app/"
 
@@ -42,7 +42,7 @@ export default function Projects() {
                     <ProjectCardRepo
                         img={devSocial}
                         title="DEV SOCIAL NETWORK"
-                        description="EM BREVE..."
+                        description="Crie seu perfil, encontre amigos, arquive projetos e compartilhe suas ideias nessa rede social de desenvolvedores."
                         repo="https://github.com/marcusvinicius0/Devs-Social-Network"
                     />
 
