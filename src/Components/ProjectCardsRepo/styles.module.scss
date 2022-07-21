@@ -25,10 +25,29 @@
 
         p{
             color: var(--white);
-            padding: 1rem;
+            padding: 0.5rem;
             font-size: 14px;
             text-align: start;
+            overflow-y: auto;
+            height: 100px;
+            max-width: 95%;
         }
+
+        
+        p::-webkit-scrollbar {
+            height: 20px;
+            width: 5px;
+            background-color: var(--white);
+        }
+
+        p::-webkit-scrollbar-thumb:vertical {
+            background-color: var(--soft-purple);
+            height: 20px;
+            border-radius: 20px;
+            -moz-border-radius: 20px;
+            -webkit-border-radius: 20px;
+        }
+        
     }
 
     .link{

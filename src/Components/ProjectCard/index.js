@@ -4,7 +4,9 @@ import styles from './styles.module.scss';
 export default function ProjectCard(props) {
     return (
         <div className={styles.projectCard}>
-            <img src={props.img} alt="projeto-print" />
+           
+            <img className={styles.projectPicture} src={props.img} alt="projeto-print" />
+           
             <h5>{props.title}</h5>
             <div className={styles.descriptionBox}>
                 <p className={styles.description}>{props.description}</p>
