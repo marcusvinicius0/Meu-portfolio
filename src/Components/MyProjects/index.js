@@ -73,8 +73,8 @@ export default function Projects() {
                         img={portfolio}
                         title="MEU PORTFÓLIO"
                         description="Desenvolvido a fins de mostrar meus principais projetos."
-                        repo=""
-                        link=""
+                        repo="https://github.com/marcusvinicius0/Meu-portfolio"
+                        link="https://portfolio-marcusvinicius.netlify.app/"
                     />
 
                     <ProjectCard
