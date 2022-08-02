@@ -20,7 +20,7 @@ import filmariaGif from '../../assets/filmariaproject.gif';
 export default function Projects() {
    const [showProjects, setShowProjects] = useState(false);
 
-   let gifs = [callsystemGif, pizzariaGif, socialmediaGif, filmariaGif];
+   let gifs = [socialmediaGif, pizzariaGif, callsystemGif, filmariaGif];
 
    function handleProjects() {
       setShowProjects(!showProjects);
@@ -37,11 +37,10 @@ export default function Projects() {
 
                <ProjectCard
                   img={gifs[0]}
-                  title="SISTEMA DE CHAMADOS"
-                  description="Empresas se cadastram e adicionam clientes, podendo agendar uma chamada para reuniões e/ou encontros e visualizando as chamadas através de um dashboard. Além disso também editam seus próprios perfis e o andamento das chamadas, como em aberto, em andamento ou atendida."
-                  repo="https://github.com/marcusvinicius0/sistema-de-chamados"
-                  link="https://sistema-de-chamados1.netlify.app/"
-
+                  title="DEV SOCIAL NETWORK"
+                  description="Uma rede social para compartilhar experiências, seguir pessoas, conversar, editar seu próprio perfil, guardar projetos, buscar repositórios no GitHub consumindo uma API e mais... "
+                  repo="https://github.com/marcusvinicius0/Devs-Social-Network"
+                  link="https://devsocialnetwork.netlify.app/"
                />
 
                <ProjectCardRepo
@@ -51,12 +50,13 @@ export default function Projects() {
                   repo="https://github.com/marcusvinicius0/restaurants-system-frontend"
                />
 
-               <ProjectCardRepo
+               <ProjectCard
                   img={gifs[2]}
-                  title="DEV SOCIAL NETWORK"
-                  description="Uma rede social   para compartilhar experiências, seguir pessoas, conversar, editar seu próprio perfil, guardar projetos, buscar repositórios no GitHub consumindo uma API e mais... 
-                         "
-                  repo="https://github.com/marcusvinicius0/Devs-Social-Network"
+                  title="SISTEMA DE CHAMADOS"
+                  description="Empresas se cadastram e adicionam clientes, podendo agendar uma chamada para reuniões e/ou encontros e visualizando as chamadas através de um dashboard. Além disso também editam seus próprios perfis e o andamento das chamadas, como em aberto, em andamento ou atendida."
+                  repo="https://github.com/marcusvinicius0/sistema-de-chamados"
+                  link="https://sistema-de-chamados1.netlify.app/"
+
                />
 
                <ProjectCard

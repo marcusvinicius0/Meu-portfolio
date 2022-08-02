@@ -64,10 +64,9 @@ a{
     width: 10px;
   }
   ::-webkit-scrollbar-track{
-    background: linear-gradient(5deg, var(--white) 100%, #000 1%);
+    background: linear-gradient(5deg, var(--purple-900) 100%, #000 1%);
   }
   ::-webkit-scrollbar-thumb{
     background-color: var(--soft-purple);
-
     border-radius: 5px;
   }

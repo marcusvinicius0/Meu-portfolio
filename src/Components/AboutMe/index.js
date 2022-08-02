@@ -13,9 +13,9 @@ export default function AboutMe() {
 
                 <h3>Tempo de experiência:</h3>
                 <p>👇 +08 meses de experiência na área de desenvolvimento.  Desenvolvi projetos como:
-                    <strong> <a href="https://github.com/marcusvinicius0/restaurants-system-frontend" target="_blank" rel="noreferrer">Sistema para estabelecimentos de comida</a>,
+                    <strong> <a href="https://devsocialnetwork.netlify.app/" target="_blank" rel="noreferrer">Rede social para Desenvolvedores</a>,
 
-                        <a href="https://github.com/marcusvinicius0/sistema-de-chamados" target="_blank" rel="noreferrer"> sistema de chamados</a>, <a href="https://github.com/marcusvinicius0/Landing-Page-Jordan" target="_blank" rel="noreferrer">landing pages</a>, <a href="https://github.com/marcusvinicius0/teste-DevSlide" target="_blank" rel="noreferrer">aplicações com foco em consumo de API'S</a>.
+                        <a href="https://github.com/marcusvinicius0/restaurants-system-frontend" target="_blank" rel="noreferrer"> Sistema para estabelecimentos de comida</a>, <a href="https://sistema-de-chamados1.netlify.app/dashboard" target="_blank" rel="noreferrer">sistema de chamados</a>, <a href="https://github.com/marcusvinicius0/teste-DevSlide" target="_blank" rel="noreferrer">aplicações com foco em consumo de API'S</a>.
 
                     </strong>
                 </p>
