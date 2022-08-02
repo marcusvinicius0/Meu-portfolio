@@ -48,17 +48,17 @@
     img {
         max-width: 550px;
         margin-right: 2rem;
-        // animation: move 1s infinite alternate;
+        animation: move 1.5s infinite alternate;
     
-        // @keyframes move {
-        //     from {
-        //         transform: translateY(10px)
-        //     }
+        @keyframes move {
+            from {
+                transform: translateY(10px)
+            }
     
-        //     to {
-        //         transform: translateY(-10px)
-        //     }
-        // }
+            to {
+                transform: translateY(-10px)
+            }
+        }
     }
 }
 
