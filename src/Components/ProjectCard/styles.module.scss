@@ -3,7 +3,7 @@
     height: 340px;
     background-color: rgb(49, 49, 63);
     border-radius: 15px;
-    box-shadow: 3px 3px 4px 4px rgb(31, 31, 36);
+    box-shadow: var(--soft-purple) 0px 5px 15px;
 
     .projectPicture{
         width: 100%;

@@ -1,7 +1,7 @@
 import styles from './styles.module.scss';
 import coding from '../../assets/coding.svg';
 
-import resume from '../../assets/marcusviniciusbegheli.pdf';
+import resume from '../../assets/marcusbegheli.pdf';
 
 export default function Introduction() {
     return (
